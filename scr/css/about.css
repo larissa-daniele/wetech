@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  padding: 15px 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e0b1cb;
+  border-radius: 30px;
+}
+
+nav {
+  width: 1196px;
+  height: 58px;
+  font-size: 16px;
+  justify-content: space-between;
+  background-color: #dda0dd;
+  padding: 0px;
+  color: #ffffff;
+  box-shadow: 3px 3px 3px rgb(172, 170, 170);
+  background-color: #5e548e;
+  background-image: linear-gradient(105deg,
+      #5e548e 0%,
+      #784ba0 19%,
+      #9f86c0 39%,
+      #be95c4 60%,
+      #e0b1cb 80%);
+  border-radius: 8px;
+}
+
+nav,
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 40px;
+  margin-right: 40px;
+  font-family: "Koulen", cursive;
+  font-style: normal;
+  letter-spacing: 10px;
+}
+
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 30px;
+  font-style: bold;
+  font-size: 17px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.7s all;
+  color: #5e548e;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 150px;
+}
+
+img {
+  max-width: 700px;
+  align-items: center;
+  padding: 30px;
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.dev, .seo, .ux {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 55px;
+  color: black;
+}
+
+.dev-descri {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dev:hover, .seo:hover, .ux:hover {
+  transform: scale(1.08);
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 30px;
+}
